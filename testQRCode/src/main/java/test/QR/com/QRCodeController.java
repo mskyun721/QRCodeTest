@@ -24,7 +24,7 @@ public class QRCodeController {
 	  int width = 150;
 	  int height = 150;
 	  
-	  String file_path = "C:\\workspace_java\\testQRCode\\src\\main\\webapp\\resources\\img";
+	  String file_path = "C:\\Users\\mskyu\\git\\QRtest\\testQRCode\\src\\main\\webapp\\resources\\img";
 	  String file_name = "test.png";
 	  QRutil.makeQR(url , width , height , file_path , file_name);
 	  return "codetest";
